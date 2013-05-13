@@ -1,0 +1,30 @@
+
+<p>users</p>
+{{users[0]}}
+<div ng-repeat="user in users">
+    <td>{{user.dNam}}</td>
+    <td ng-click="edit(user)"><i class="icon-edit"></i></td>
+</div>
+
+<p>place</p>
+{{plcs[0]}}
+<table class="table table-striped table-bordered table-hover">
+    <thead>
+    <tr>
+        <th>Label</th>
+        <th>Pt</th>
+        <th>first</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="plc in plcs">
+        <td>{{plc.dNam}}</td>
+        <td>{{plc.pts}}</td>
+        <td ng-click="edit(plc)"><i class="icon-edit"></i></td>
+    </tr>
+    </tbody>
+</table>
+<div class="well">
+    <button class="btn" ng-click="new()">New</button>
+</div>

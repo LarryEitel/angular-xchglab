@@ -1,10 +1,10 @@
 angular.module("xchglabResourceHttp", []).factory "$xchglabResourceHttp",
-    ["EXI_CONFIG", "$http", (EXI_CONFIG, $http) ->
-        ExiResourceFactory = (collectionName) ->
+    ["XCHGLAB_CONFIG", "$http", (XCHGLAB_CONFIG, $http) ->
+        XchgLabResourceFactory = (collectionName) ->
             config = angular.extend(
                 # BASE_URL: "http://localhost:5000/api"
                 BASE_URL: "http://exi.xchg.com/api"
-            , EXI_CONFIG)
+            , XCHGLAB_CONFIG)
             url = config.BASE_URL
             collectionUrl = url + "/" + collectionName
             defaultParams = {} #apiKey: config.API_KEY
@@ -170,5 +170,5 @@ angular.module("xchglabResourceHttp", []).factory "$xchglabResourceHttp",
                     @$save savecb, errorSavecb
 
             Resource
-        ExiResourceFactory
+        XchgLabResourceFactory
     ]
