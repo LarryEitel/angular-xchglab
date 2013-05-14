@@ -1,11 +1,13 @@
 <form name="form">
     <legend>Edit form</legend>
-    <label>Label</label>
-    <input type="text" ng-model="plc.lbl">
-    <label>Pts</label>
-    <input type="text" ng-model="plc.pts">
+    <label>UserName</label>
+    <input type="text" ng-model="user.uNam">
+    <label>FirstName</label>
+    <input type="text" ng-model="user.fNam">
+    <label>LastName</label>
+    <input type="text" ng-model="user.lNam">
     <hr>
     <button class="btn btn-primary" ng-click="put()" ng-disabled="!hasChanges()||form.$invalid">Save</button>
     <button class="btn btn-warning" ng-click="abandonChanges()">Abandon</button>
-    <button class="btn btn-danger" ng-click="remove()" ng-disabled="!plc.$id()">Remove</button>
+    <button class="btn btn-danger" ng-click="remove()" ng-disabled="!user.$id()">Remove</button>
 </form>

@@ -18,7 +18,9 @@ describe("mongolab resource scenario", function () {
     beforeEach(inject(function ($injector) {
         $httpBackend = $injector.get('$httpBackend');
     }));
-
+    it ("should add 2 + 2", function() {
+       expect(1+2).toEqual(3);
+    });
     it("should issue GET request for a query", inject(function (Project) {
 
         $httpBackend.expect('GET', createUrl('')).respond([{'_id':{'$oid':1}, 'key':'value'}]);

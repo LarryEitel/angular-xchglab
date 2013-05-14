@@ -12,6 +12,7 @@ angular.module("xchglabResourceHttp", []).factory "$xchglabResourceHttp",
             resourceRespTransform = (data) ->
                 new Resource(data)
 
+            # Add Resource Methods to returned items
             resourcesArrayRespTransform = (data) ->
                 if data?._items?
                     items = []
@@ -135,6 +136,13 @@ angular.module("xchglabResourceHttp", []).factory "$xchglabResourceHttp",
                 )
                 promiseThen httpPromise, successcb, errorcb, resourceRespTransform
 
+
+
+
+            Resource::$post = (data, successcb, errorcb) ->
+                console.log data
+                httpPromise = $http.post(collectionUrl, data, config)
+                promiseThen httpPromise, successcb, errorcb, resourceRespTransform
 
 
 
