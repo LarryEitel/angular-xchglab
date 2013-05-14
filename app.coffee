@@ -61,7 +61,7 @@ app.controller "FormCtrl", ($scope, $location, user) ->
 
     $scope.user = user
 
-    $scope.user = ->
+    $scope.post = ->
         actions = {"$set":{"flds":{"fNam":user.fNam,"lNam": user.lNam}}}
         $scope.user.$put JSON.stringify({"actions":actions}), changeSuccess, changeError
 

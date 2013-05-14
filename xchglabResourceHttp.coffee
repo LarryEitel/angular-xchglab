@@ -14,6 +14,9 @@ angular.module("xchglabResourceHttp", []).factory "$xchglabResourceHttp",
 
             # Add Resource Methods to returned items
             resourcesArrayRespTransform = (data) ->
+
+                console.log('hello')
+                console.log(data)
                 if data?._items?
                     items = []
                     i = 0
