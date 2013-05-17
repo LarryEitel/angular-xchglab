@@ -126,9 +126,12 @@ angular.module("xchglabResourceHttp", []).factory "$xchglabResourceHttp",
                 else @_id  if @_id
 
             Resource::$save = (successcb, errorcb) ->
-                httpPromise = $http.post(collectionUrl, this,
-                    params: defaultParams
-                )
+                console.log '$save'
+
+                config = {'headers': {'Content-Type': 'application/x-www-form-urlencoded'}}
+                # data = {'doc': JSON.stringify({"uNam":@uNam, "lNam":@lNam, "fNam":@fNam})}
+                data = 'doc = ' + JSON.stringify({"uNam":@uNam, "lNam":@lNam, "fNam":@fNam})
+                httpPromise = $http.post(collectionUrl, data, config)
                 promiseThen httpPromise, successcb, errorcb, resourceRespTransform
 
             Resource::$update = (successcb, errorcb) ->
@@ -143,7 +146,7 @@ angular.module("xchglabResourceHttp", []).factory "$xchglabResourceHttp",
 
 
             Resource::$post = (data, successcb, errorcb) ->
-                console.log data
+                console.log '$post', data
                 httpPromise = $http.post(collectionUrl, data, config)
                 promiseThen httpPromise, successcb, errorcb, resourceRespTransform
 
@@ -153,10 +156,13 @@ angular.module("xchglabResourceHttp", []).factory "$xchglabResourceHttp",
 
 
             Resource::$put = (data, successcb, errorcb) ->
+                console.log '$put', @etag
                 # httpPromise = $http.put(collectionUrl + "/" + @$id(), angular.extend({}, this,
                 # httpPromise = $http(headers = {'Authorization': 'Basic admin@orgtec.com:xxxxxx'}).put(collectionUrl + "/" + @$id(), data)
+                console.log 'tkn', @tkn
                 config = {'headers': {'If-Match': @etag}}
-                console.log @etag
+                # config = {'headers': {'If-Match': @etag, 'Authorization':@tkn}}
+                data = JSON.stringify({"actions": {"$set":{"flds":{"uNam":@uNam,"lNam":@lNam,"fNam":@fNam}}}})
                 httpPromise = $http.put(collectionUrl + "/" + @$id(), data, config)
                 promiseThen httpPromise, successcb, errorcb, resourceRespTransform
 
@@ -174,6 +180,7 @@ angular.module("xchglabResourceHttp", []).factory "$xchglabResourceHttp",
                 promiseThen httpPromise, successcb, errorcb, resourceRespTransform
 
             Resource::$saveOrUpdate = (savecb, updatecb, errorSavecb, errorUpdatecb) ->
+                console.log 'saveOrUpdate'
                 if @$id()
                     # @$update updatecb, errorUpdatecb
                     @$put updatecb, errorUpdatecb

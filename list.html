@@ -4,6 +4,8 @@
         <td>
             Slug: {{user.slug}} <br />
             UserName: {{user.uNam}} <br />
+            FirstName: {{user.fNam}} <br />
+            LastName: {{user.lNam}} <br />
             Roles: <span ng-repeat="role in user.roles">
             {{role.name}} <br />
             </span>
@@ -12,21 +14,21 @@
                 <tbody>
                 <tr ng-repeat="email in user.emails">
                     <td>{{email.address}}</td>
-                    <td ng-click="edit(email)"><i class="icon-edit">Edit</i></td>
+                    <td ng-click="edit(email)"><i class="icon-edit">Edit Email</i></td>
                 </tr>
                 </tbody>
             </table>
             <div class="well">
-                <button class="btn" ng-click="new()">New</button>
+                <button class="btn" ng-click="new()">New Email</button>
             </div>
 
         </td>
 
-        <td ng-click="edit(user)"><i class="icon-edit">Edit</i></td>
+        <td ng-click="edit(user)"><i class="icon-edit">Edit User</i></td>
     </tr>
     </tbody>
 </table>
 <div class="well">
-    <button class="btn" ng-click="new()">New</button>
+    <button class="btn" ng-click="new()">New User</button>
 </div>
 {{users[0]}}

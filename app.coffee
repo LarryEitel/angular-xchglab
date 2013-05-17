@@ -1,4 +1,4 @@
-app = angular.module("xchglab", ["xchglabResourceHttp"], ($routeProvider) ->
+app = angular.module("xchglab", ['ui.bootstrap', "xchglabResourceHttp"], ($routeProvider) ->
     $routeProvider.when "/list",
         templateUrl: "list.html"
         controller: "ListCtrl"
@@ -62,7 +62,7 @@ app.controller "FormCtrl", ($scope, $location, user) ->
     $scope.user = user
 
     $scope.post = ->
-        actions = {"$set":{"flds":{"fNam":user.fNam,"lNam": user.lNam}}}
+        actions = {"$set":{"flds":{"uNam":user.uNam, "fNam":user.fNam,"lNam": user.lNam}}}
         $scope.user.$put JSON.stringify({"actions":actions}), changeSuccess, changeError
 
     $scope.save = ->
