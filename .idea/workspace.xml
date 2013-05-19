@@ -2,17 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82093e38-f216-40ef-80f8-1d937fca1485" name="Default" comment="got basic rest dial-tone">
-      <change type="NEW" beforePath="" afterPath="C:\Users\Larry\Google Drive\_git\angular-xchglab\test\xchglab\httpSpec.coffee" />
-      <change type="NEW" beforePath="" afterPath="C:\Users\Larry\Google Drive\_git\angular-xchglab\vendor\angular\angular-resource.min.js" />
-      <change type="NEW" beforePath="" afterPath="C:\Users\Larry\Google Drive\_git\angular-xchglab\vendor\angular\angular-resource.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xchglabResourceHttp.coffee" afterPath="$PROJECT_DIR$/xchglabResourceHttp.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/angular/angular.js" />
+      <change type="DELETED" beforePath="C:\Users\Larry\Google Drive\_git\angular-xchglab\mongo.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\Google Drive\_git\angular-xchglab\mongolab.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\Google Drive\_git\angular-xchglab\mongotests.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\Google Drive\_git\angular-xchglab\test\xchglab\desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\Google Drive\_git\angular-xchglab\test\xchglab\frisby_xchg_spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\Google Drive\_git\angular-xchglab\test\xchglab\httpSpec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\Google Drive\_git\angular-xchglab\test\xchglab\twitter_feed_spec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Larry\Google Drive\_git\angular-xchglab\vendor\angular\angular-mocks.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/karma.conf.js" afterPath="$PROJECT_DIR$/karma.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xchglabResourceHttp.js" afterPath="$PROJECT_DIR$/xchglabResourceHttp.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/xchglab/xchglabSpec.coffee" afterPath="$PROJECT_DIR$/test/xchglab/xchglabSpec.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/xchglab/xchglabSpec.js" afterPath="$PROJECT_DIR$/test/xchglab/xchglabSpec.js" />
     </list>
     <ignored path="angular-xchglab.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="82093e38-f216-40ef-80f8-1d937fca1485" time="1368821180754" ignored="false" />
+    <file path="/Dummy.txt" changelist="82093e38-f216-40ef-80f8-1d937fca1485" time="1368975697087" ignored="false" />
     <file path="$USER_HOME$/__prjs/yo/ofs/.idea/workspace.xml" changelist="82093e38-f216-40ef-80f8-1d937fca1485" time="1368554015501" ignored="false" />
     <file path="/index.html" changelist="82093e38-f216-40ef-80f8-1d937fca1485" time="1368818160104" ignored="false" />
     <file path="/a.dummy" changelist="82093e38-f216-40ef-80f8-1d937fca1485" time="1368465576042" ignored="false" />
@@ -24,10 +33,9 @@
     <file path="/mongolabSpec.js" changelist="82093e38-f216-40ef-80f8-1d937fca1485" time="1368481898292" ignored="false" />
     <file path="/xchglabSpec.js" changelist="82093e38-f216-40ef-80f8-1d937fca1485" time="1368482060706" ignored="false" />
     <file path="/form.html" changelist="82093e38-f216-40ef-80f8-1d937fca1485" time="1368554670135" ignored="false" />
-    <file path="/README.md" changelist="82093e38-f216-40ef-80f8-1d937fca1485" time="1368548796743" ignored="false" />
+    <file path="/README.md" changelist="82093e38-f216-40ef-80f8-1d937fca1485" time="1368977104510" ignored="false" />
     <file path="/a.coffee" changelist="82093e38-f216-40ef-80f8-1d937fca1485" time="1368548801643" ignored="false" />
     <file path="/xchglabSpec.coffee" changelist="82093e38-f216-40ef-80f8-1d937fca1485" time="1368552173109" ignored="false" />
-    <file path="$PROJECT_DIR$/app.js" changelist="82093e38-f216-40ef-80f8-1d937fca1485" time="1368820418559" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,16 +58,61 @@
       <file leaf-file-name="xchglabResourceHttp.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xchglabResourceHttp.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="92" selection-start="5564" selection-end="5564" vertical-scroll-proportion="0.0">
+            <state line="122" column="30" selection-start="5091" selection-end="5091" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="92" selection-start="402" selection-end="402" vertical-scroll-proportion="0.1721519">
+            <state line="10" column="34" selection-start="488" selection-end="488" vertical-scroll-proportion="-6.5384617">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xchglabSpec.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/xchglab/xchglabSpec.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="karma.conf.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/karma.conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="11" selection-start="234" selection-end="276" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xchglabSpec.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/xchglab/xchglabSpec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="74" selection-start="793" selection-end="793" vertical-scroll-proportion="0.9053255">
               <folding />
             </state>
           </provider>
@@ -77,7 +130,7 @@
       <file leaf-file-name="list.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="32" selection-start="381" selection-end="381" vertical-scroll-proportion="-5.8846154">
+            <state line="11" column="19" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -101,14 +154,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="localhost:9876/debug.html" />
-        <option value="localhost:9876/base/vendor/angular/angular-mocks.js" />
         <option value="localhost:9876/adapter/lib/jasmine.js" />
         <option value="$PROJECT_DIR$/test/mongolab/mongolabSpec.js" />
         <option value="localhost:9876/base/test/mongolab/mongolabSpec.js" />
         <option value="$PROJECT_DIR$/test/xchglab/xchglabSpec.js" />
-        <option value="$PROJECT_DIR$/karma.conf.js" />
-        <option value="$PROJECT_DIR$/test/xchglab/xchglabSpec.coffee" />
         <option value="$PROJECT_DIR$/test/xchglab/httpSpec.coffee" />
         <option value="$PROJECT_DIR$/form.html" />
         <option value="$PROJECT_DIR$/xchglabResourceHttp.coffee" />
@@ -117,12 +166,16 @@
         <option value="$PROJECT_DIR$/vendor/angular/ui-bootstrap-tpls-0.3.0.min.js" />
         <option value="$PROJECT_DIR$/app.coffee" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/vendor/angular/angular-mocks.js" />
+        <option value="$PROJECT_DIR$/karma.conf.js" />
+        <option value="$PROJECT_DIR$/test/xchglab/xchglabSpec.coffee" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="3" />
-    <option name="width" value="1402" />
+    <option name="width" value="993" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -151,7 +204,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -170,57 +222,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-xchglab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-xchglab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-xchglab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular-xchglab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="options.lastSelected" value="settings.github" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="false" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig" serverName="local" serverId="396c7a5c-a473-4cef-af5d-e4940322e5cb">
     <servers>
-      <server id="2e402c1a-2baf-4e71-b929-7e5a2eae5c47">
+      <server id="396c7a5c-a473-4cef-af5d-e4940322e5cb">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </server>
+      <server id="477481fa-aa5f-4907-9626-2a00d21853ae">
+        <serverdata />
+      </server>
+      <server id="ca8a1342-d5a1-4ef9-930a-1b5a7466304a">
         <serverdata />
       </server>
     </servers>
@@ -357,18 +388,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="3" width="1402" height="1000" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="3" width="993" height="1000" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971016" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3" sideWeight="0.67339665" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2878625" sideWeight="0.67339665" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3442029" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32660332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32660332" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -452,16 +483,30 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mongo.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="57" selection-start="57" selection-end="110" vertical-scroll-proportion="0.0" />
+        <state line="8" column="50" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="35" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="19" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="38" column="0" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xchglabResourceHttp.js">
@@ -469,37 +514,21 @@
         <state line="3" column="0" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/xchglab/xchglabSpec.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="24" selection-end="468" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/karma.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="2" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="7" selection-start="608" selection-end="608" vertical-scroll-proportion="-9.153846">
-          <folding />
-        </state>
+        <state line="14" column="7" selection-start="608" selection-end="608" vertical-scroll-proportion="-9.153846" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xchglabResourceHttp.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="92" selection-start="5564" selection-end="5564" vertical-scroll-proportion="0.0">
+        <state line="122" column="30" selection-start="5091" selection-end="5091" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="32" selection-start="381" selection-end="381" vertical-scroll-proportion="-5.8846154">
+        <state line="11" column="19" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -513,7 +542,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="92" selection-start="402" selection-end="402" vertical-scroll-proportion="0.1721519">
+        <state line="10" column="34" selection-start="488" selection-end="488" vertical-scroll-proportion="-6.5384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/angular/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1368976305210" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1368976305210" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/karma.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="11" selection-start="234" selection-end="276" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/xchglab/xchglabSpec.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/xchglab/xchglabSpec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="74" selection-start="793" selection-end="793" vertical-scroll-proportion="0.9053255">
           <folding />
         </state>
       </provider>

@@ -8,8 +8,8 @@ files = [
   JASMINE,
   JASMINE_ADAPTER,
   'vendor/angular/angular.js',
-  'vendor/angular/angular-resource.js',
-  'vendor/angular/angular-mocks.js',
+//  'vendor/angular/angular-resource.js',
+//  'vendor/angular/angular-mocks.js',
   'xchglabResourceHttp.js',
   'test/**/*Spec.js'
 ];
